@@ -15,10 +15,6 @@ The game has a point, level and attempts system, but it doesn't work right, I tr
 
 ![](./public/gifs/default.gif)
 
-## Website
-
-You can access the site through the link https://whos-the-pokemon.vercel.app/
-
 # How to run
 
 ```
