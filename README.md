@@ -2,7 +2,7 @@
 
 A little game I tried to create with Next (I don't remember why though, because I mostly used React LOL).
   
-The game has a point, level and attempts system, but it doesn't work right, I tried to find out why, but I couldn't find anything about, nor how to create the system and the places I asked for help didn't answer me so 🤷, you can see it for yourself and if you want offer me a way to fix it.
+The game has a point, level and attempts system, but it doesn't work right, I tried to find out why, but I couldn't find anything about, nor how to create the system and the places I asked for help didn't answer me so 🤷, you can see it for yourself and if you want, offer me a way to fix it.
 
 
 # Technologies
