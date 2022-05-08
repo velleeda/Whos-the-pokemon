@@ -1,0 +1,23 @@
+.Box {
+  .LevelBox,
+  .PointsBox,
+  .TriesBox {
+    display: flex;
+
+    margin: 15px 0 0 15px;
+
+    min-width: 80px;
+    width: auto;
+
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+
+    p {
+      margin: auto;
+    }
+  }
+}

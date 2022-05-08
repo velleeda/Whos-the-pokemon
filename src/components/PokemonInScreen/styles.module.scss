@@ -1,0 +1,99 @@
+.StartScreen {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Quicksand", sans-serif;
+
+  button {
+    width: 75px;
+    height: 30px;
+    margin: 25px 0;
+
+    background-color: white;
+    border: 0;
+    color: #000;
+    border-radius: 50px;
+
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+
+    transition: transform 0.05s ease-in;
+
+    &:hover {
+      transform: translateY(-2px) scale(0.98);
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+.InGameScreen {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 450px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+
+  img {
+    width: 175px;
+  }
+
+  input {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+
+    border-radius: 10px;
+    background: #fff;
+    border: 0;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.LoadingScreen {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+
+  p {
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  img {
+    width: 50px;
+  }
+}
+
+.Error {
+  display: flex;
+
+  margin-top: 25px;
+
+  width: 325px;
+
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+
+  p {
+    margin: auto;
+  }
+}
